@@ -23,7 +23,7 @@ const average = (numeros) => {
     }
     soma += numeros[index];
   }
-  let media = Math.round(soma / numeros.length);
+  const media = Math.round(soma / numeros.length);
   return media;
 };
 

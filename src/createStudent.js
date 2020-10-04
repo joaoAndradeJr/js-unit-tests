@@ -15,6 +15,13 @@
     estudante.feedback() // Retorna: 'Eita pessoa boa!'
 */
 
-const createStudent = () => {};
+const createStudent = (nome) => {
+  const pegaNome = nome.split(' ');
+  const estudante = {
+    name: pegaNome[0],
+    feedback: () => 'Eita pessoa boa!',
+  };
+  return `${estudante.name} ${estudante.feedback()}`;
+};
 
 module.exports = createStudent;

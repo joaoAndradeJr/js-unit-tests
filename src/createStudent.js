@@ -16,12 +16,10 @@
 */
 
 const createStudent = (nome) => {
-  const pegaNome = nome.split(' ');
   const estudante = {
-    name: pegaNome[0],
+    name: nome,
     feedback: () => 'Eita pessoa boa!',
   };
-  return `${estudante.name} ${estudante.feedback()}`;
 };
 
 module.exports = createStudent;

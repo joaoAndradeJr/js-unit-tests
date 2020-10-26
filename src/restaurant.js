@@ -74,7 +74,7 @@
 const createMenu = (objeto) => {
   const novoObjeto = {
     fetchMenu: objeto,
-  //   consumption: [],
+      consumption: [],
   };
   return novoObjeto;
 };
